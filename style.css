@@ -21,3 +21,31 @@
     Line-height: 30.47px;
     margin-top: 15px;
 }
+.border{
+    border: 1px solid #C4C4C4;
+    width: 286px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+.border img{
+    border: 1px solid #C4C4C4;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 8px 15px;
+}
+.button{
+    display: flex;
+}
+.button img{
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+.button span{
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
