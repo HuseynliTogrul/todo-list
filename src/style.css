@@ -1,0 +1,126 @@
+.todoListContainer { 
+   display: flex; 
+   align-items: center; 
+   height: 100vh; 
+ } 
+  
+ .container { 
+   background-color: white; 
+   width: 338px; 
+   border: 1px solid #c4c4c4; 
+   box-sizing: border-box; 
+   border-radius: 10px; 
+   margin: auto; 
+ } 
+  
+ .blackLine { 
+   width: 100%; 
+   height: 28px; 
+   border-radius: 10px 10px 0 0; 
+   margin: 0; 
+ } 
+  
+ .toDoListHeader { 
+   font-style: normal; 
+   width: 100%; 
+   font-weight: 900; 
+   font-size: 26px; 
+   line-height: 30px; 
+   text-align: center; 
+   text-transform: capitalize; 
+   margin-top: 17px; 
+   color: #000000; 
+   font-family: "Roboto", sans-serif; 
+ } 
+  
+ .sortIconDiv { 
+   width: 90%; 
+   display: flex; 
+   justify-content: end; 
+ } 
+  
+ .sortIcon { 
+   cursor: pointer; 
+   margin-top: 20px; 
+   margin-bottom: 10px; 
+   text-align: end; 
+   opacity: 0.6; 
+   transition: all 0.7s; 
+ } 
+  
+ .sortIcon:hover{ 
+   opacity: 1; 
+ } 
+  
+ .todoListParent { 
+   border: 1px solid #C4C4C4; 
+   box-sizing: border-box; 
+   border-radius: 10px; 
+   margin-left: 25px; 
+   margin-right: 25px; 
+   padding-top: 10px; 
+ } 
+  
+ .listsLi { 
+   display: flex; 
+   justify-content: space-between; 
+   padding-left: 22px; 
+   padding-right: 22px; 
+   margin-top: 5px; 
+   margin-bottom: 15px; 
+ } 
+  
+ .listİnputİtem { 
+   width: 100%; 
+   border: 0; 
+ } 
+  
+ .listİnputİtem { 
+   border: none; 
+   outline: none; 
+ } 
+  
+ .listİnputİtem:active { 
+   border: none; 
+   outline: none; 
+ } 
+  
+ .listXIcon { 
+   cursor: pointer; 
+   border-radius: 10px; 
+   transition: 0.7s; 
+ } 
+  
+ .listXIcon:hover { 
+   background-color: #afabab; 
+ } 
+  
+ .buttonDiv { 
+   margin: auto; 
+   width: 40%; 
+   display: flex; 
+   align-items: center; 
+   margin-top: 18px; 
+   border: 20px; 
+   border-radius: 50px; 
+   transition: all 0.7s; 
+   margin-bottom: 20px; 
+   cursor: pointer; 
+   background-color: #833AE0; 
+ } 
+  
+ .buttonPlus { 
+   background-color: #9953F1; 
+   padding: 12px; 
+   padding-left: 18px; 
+   padding-right: 18px; 
+   border-radius: 80px; 
+   width: 5%; 
+   color: white; 
+ } 
+  
+ .buttonAdd { 
+   color: white; 
+   font-family: "Roboto", sans-serif; 
+   margin: auto; 
+ }
